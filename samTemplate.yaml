@@ -9,7 +9,7 @@ Resources:
       Runtime: python3.6
       CodeUri: ./LambdaCode
       Description: 'Lambda function for CD Demo'
-      MemorySize: 128
+      MemorySize: 500
       Timeout: 30
       Role: 'arn:aws:iam::716262823751:role/Lambda-test-saurabh'
       Events:
